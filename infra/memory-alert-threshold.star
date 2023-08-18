@@ -4,7 +4,7 @@ def in_range(value):
 export(
     Config(
         description = "Alert threshold for memory usage",
-        default = 0.1,
+        default = 0.4,
         validator = in_range,
     ),
 )
