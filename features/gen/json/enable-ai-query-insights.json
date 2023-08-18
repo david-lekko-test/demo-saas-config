@@ -20,6 +20,20 @@
             "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
           }
         }
+      },
+      {
+        "rule": "team_id == \"f0483d64-3690-4436-a6cc-acb5c2f0b8c3\"",
+        "value": {
+          "@type": "type.googleapis.com/google.protobuf.BoolValue",
+          "value": true
+        },
+        "ruleAstNew": {
+          "atom": {
+            "contextKey": "team_id",
+            "comparisonValue": "f0483d64-3690-4436-a6cc-acb5c2f0b8c3",
+            "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
+          }
+        }
       }
     ]
   },
