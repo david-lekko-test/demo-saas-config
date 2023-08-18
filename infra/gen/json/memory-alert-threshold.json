@@ -1,0 +1,11 @@
+{
+  "key": "memory-alert-threshold",
+  "description": "Alert threshold for memory usage",
+  "tree": {
+    "default": {
+      "@type": "type.googleapis.com/google.protobuf.DoubleValue",
+      "value": 0.1
+    }
+  },
+  "type": "FEATURE_TYPE_FLOAT"
+}

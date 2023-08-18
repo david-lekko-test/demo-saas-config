@@ -1,0 +1,44 @@
+{
+  "key": "support-options",
+  "description": "Support options available for users",
+  "tree": {
+    "default": {
+      "@type": "type.googleapis.com/google.protobuf.Value",
+      "value": {
+        "GitHub": {
+          "is_link": true,
+          "message": "Explore questions asked by other users on our GitHub Issues page",
+          "url": "https://github.com/lekkodev/demo-saas-template"
+        }
+      }
+    },
+    "constraints": [
+      {
+        "rule": "plan >= 2",
+        "value": {
+          "@type": "type.googleapis.com/google.protobuf.Value",
+          "value": {
+            "GitHub": {
+              "is_link": true,
+              "message": "Explore questions asked by other users on our GitHub Issues page",
+              "url": "https://github.com/lekkodev/demo-saas-template"
+            },
+            "Slack": {
+              "is_link": true,
+              "message": "Join our Slack community!",
+              "url": "https://nimbus2k.slack.com"
+            }
+          }
+        },
+        "ruleAstNew": {
+          "atom": {
+            "contextKey": "plan",
+            "comparisonValue": 2,
+            "comparisonOperator": "COMPARISON_OPERATOR_GREATER_THAN_OR_EQUALS"
+          }
+        }
+      }
+    ]
+  },
+  "type": "FEATURE_TYPE_JSON"
+}
