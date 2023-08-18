@@ -1,0 +1,27 @@
+{
+  "key": "enable-ai-query-insights",
+  "description": "my config description",
+  "tree": {
+    "default": {
+      "@type": "type.googleapis.com/google.protobuf.BoolValue",
+      "value": false
+    },
+    "constraints": [
+      {
+        "rule": "plan == 3",
+        "value": {
+          "@type": "type.googleapis.com/google.protobuf.BoolValue",
+          "value": true
+        },
+        "ruleAstNew": {
+          "atom": {
+            "contextKey": "plan",
+            "comparisonValue": 3,
+            "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
+          }
+        }
+      }
+    ]
+  },
+  "type": "FEATURE_TYPE_BOOL"
+}

@@ -1,0 +1,11 @@
+{
+  "key": "cpu-alert-threshold",
+  "description": "Alert threshold for CPU usage",
+  "tree": {
+    "default": {
+      "@type": "type.googleapis.com/google.protobuf.DoubleValue",
+      "value": 0.9
+    }
+  },
+  "type": "FEATURE_TYPE_FLOAT"
+}
