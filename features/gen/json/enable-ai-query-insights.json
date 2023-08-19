@@ -36,7 +36,7 @@
         }
       },
       {
-        "rule": "team_id == \"79a46db3-a9de-4c92-8c8d-31544348400d\"",
+        "rule": "team_id == \"5e5c72a3-dd58-44d2-aadc-430d3fbe4f64\"",
         "value": {
           "@type": "type.googleapis.com/google.protobuf.BoolValue",
           "value": true
@@ -44,7 +44,7 @@
         "ruleAstNew": {
           "atom": {
             "contextKey": "team_id",
-            "comparisonValue": "79a46db3-a9de-4c92-8c8d-31544348400d",
+            "comparisonValue": "5e5c72a3-dd58-44d2-aadc-430d3fbe4f64",
             "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
           }
         }
