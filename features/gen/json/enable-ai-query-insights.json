@@ -8,7 +8,7 @@
     },
     "constraints": [
       {
-        "rule": "plan == 3",
+        "rule": "plan == 2",
         "value": {
           "@type": "type.googleapis.com/google.protobuf.BoolValue",
           "value": true
@@ -16,7 +16,7 @@
         "ruleAstNew": {
           "atom": {
             "contextKey": "plan",
-            "comparisonValue": 3,
+            "comparisonValue": 2,
             "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
           }
         }
