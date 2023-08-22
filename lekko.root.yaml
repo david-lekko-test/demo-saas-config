@@ -1,6 +1,5 @@
 version: v1
 namespaces:
-    - default
     - features
     - infra
 protoDir: proto
