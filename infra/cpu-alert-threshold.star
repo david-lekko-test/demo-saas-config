@@ -4,7 +4,7 @@ def in_range(value):
 export(
     Config(
         description = "Alert threshold for CPU usage",
-        default = 1.0,
+        default = 0.9,
         validator = in_range,
     ),
 )
