@@ -8,43 +8,15 @@
     },
     "constraints": [
       {
-        "rule": "plan == 3",
+        "rule": "team_plan == 3",
         "value": {
           "@type": "type.googleapis.com/google.protobuf.BoolValue",
           "value": true
         },
         "ruleAstNew": {
           "atom": {
-            "contextKey": "plan",
+            "contextKey": "team_plan",
             "comparisonValue": 3,
-            "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
-          }
-        }
-      },
-      {
-        "rule": "team_id == \"f0483d64-3690-4436-a6cc-acb5c2f0b8c3\"",
-        "value": {
-          "@type": "type.googleapis.com/google.protobuf.BoolValue",
-          "value": true
-        },
-        "ruleAstNew": {
-          "atom": {
-            "contextKey": "team_id",
-            "comparisonValue": "f0483d64-3690-4436-a6cc-acb5c2f0b8c3",
-            "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
-          }
-        }
-      },
-      {
-        "rule": "team_id == \"5e5c72a3-dd58-44d2-aadc-430d3fbe4f64\"",
-        "value": {
-          "@type": "type.googleapis.com/google.protobuf.BoolValue",
-          "value": true
-        },
-        "ruleAstNew": {
-          "atom": {
-            "contextKey": "team_id",
-            "comparisonValue": "5e5c72a3-dd58-44d2-aadc-430d3fbe4f64",
             "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
           }
         }
