@@ -12,7 +12,7 @@ export(
             },
         },
         overrides = [
-            ("team_plan >= 2", {
+            ("plan >= 2", {
                 "Discord": {
                     "message": "Join our Discord server!",
                     "url": "https://discord.gg/nimbus2k",

@@ -20,20 +20,6 @@
             "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
           }
         }
-      },
-      {
-        "rule": "team_slug == \"lekko\"",
-        "value": {
-          "@type": "type.googleapis.com/google.protobuf.BoolValue",
-          "value": true
-        },
-        "ruleAstNew": {
-          "atom": {
-            "contextKey": "team_slug",
-            "comparisonValue": "lekko",
-            "comparisonOperator": "COMPARISON_OPERATOR_EQUALS"
-          }
-        }
       }
     ]
   },

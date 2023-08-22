@@ -17,7 +17,7 @@
     },
     "constraints": [
       {
-        "rule": "team_plan >= 2",
+        "rule": "plan >= 2",
         "value": {
           "@type": "type.googleapis.com/google.protobuf.Value",
           "value": {
@@ -41,7 +41,7 @@
         },
         "ruleAstNew": {
           "atom": {
-            "contextKey": "team_plan",
+            "contextKey": "plan",
             "comparisonValue": 2,
             "comparisonOperator": "COMPARISON_OPERATOR_GREATER_THAN_OR_EQUALS"
           }
